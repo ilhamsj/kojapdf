@@ -1,0 +1,12 @@
+{
+    "name": "ilhamsj/koja-pdf",
+    "authors": [
+        {
+            "name": "ilhamsj",
+            "email": "ilhamsaputrajati@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf": "^0.8.5"
+    }
+}

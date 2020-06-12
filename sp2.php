@@ -36,7 +36,7 @@ $content = '
     <table>
         <tr>
             <td>
-                <img style="width:90" src="barcode.png"/> 
+            <img style="width:90" src="assets\sp2.png"/>  <br/>
             </td>
             <td>
                 <img style="width:100" src="logoZw5JVp4Z3oLqCEFTYrEk (1).png"/>  <br/>

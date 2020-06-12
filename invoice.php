@@ -259,7 +259,8 @@ $content = '
                         </ol>
                     </td>
                     <td style="vertical-align: center">
-                        <img style="margin: 10px; width:100" src="barcode.png"/>  <br/>
+                        <img style="margin: 10px; width:100" src="assets\invoice.png"/>  <br/>
+                        
                     </td>
                     <td style="text-align: left">
                     </td>

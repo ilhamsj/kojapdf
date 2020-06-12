@@ -85,7 +85,7 @@ $content = '
                             <tr>
                                 <td>Job Number</td>
                                 <td>:</td>
-                                <td></td>
+                                <td>GTS/JKT/SP2/202006-0013</td>
                             </tr>
                             <tr>
                                 <td>Type</td>
@@ -203,7 +203,7 @@ $content = '
                     <td style="text-align: right">Total</td>
                 </tr>
                 <tr>
-                    <td>Invoice Terminal - KOJA (No. Proforma Invoice)</td>
+                    <td>Invoice Terminal - KOJA (101004140022)</td>
                     <td>1</td>
                     <td style="text-align: right">1.000.000</td>
                     <td style="text-align: right">1.000.000</td>

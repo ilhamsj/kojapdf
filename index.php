@@ -42,7 +42,9 @@ $content = '
                 height: 500px
             }
 
-            .notes {font-size: 11px}
+            .notes {
+                font-size: 11px
+            }
         </style>
     </head>
     <body>
@@ -55,13 +57,14 @@ $content = '
                             <tr>
                                 <td>ALAMAT</td>
                                 <td>:</td>
-                                <td>Jl. Digul No.1 RT.012 RW.007, Koja, Jakarta Utara, DKI Jakarta-14120
+                                <td>
+                                    Jl. Enggano Raya No. 40C, Tanjung Priok, Jakarta Utara 14310
                                 </td>
                             </tr>
                             <tr>
                                 <td>NPWP</td>
                                 <td>:</td>
-                                <td>01.804.534.4-093.000</td>
+                                <td>01.301.534.4-043.000</td>
                             </tr>
                         </table>
                     </td>
@@ -77,7 +80,7 @@ $content = '
                             <tr>
                                 <td>No Faktur Pajak</td>
                                 <td>:</td>
-                                <td>01.804.534.4-093.000</td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>Job Number</td>
@@ -92,17 +95,17 @@ $content = '
                             <tr>
                                 <td>Tanggal</td>
                                 <td>:</td>
-                                <td>'. date('Ymd') .'</td>
+                                <td>'. date('Y-m-d') .'</td>
                             </tr>
                             <tr>
                                 <td>1-BC2.0</td>
                                 <td>:</td>
-                                <td>No SPPB</td>
+                                <td>5555555</td>
                             </tr>
                             <tr>
                                 <td>No. VA Bank BNI</td>
                                 <td>:</td>
-                                <td></td>
+                                <td>7810202001539202</td>
                             </tr>
                         </table>
                     </td>
@@ -118,7 +121,7 @@ $content = '
                             <tr>
                                 <td>Perusahaan</b></td>
                                 <td>:</td>
-                                <td></td>
+                                <td> PT.PINDO DELI PULP AND PAPER MILLS</td>
                             </tr>
                             <tr>
                                 <td>NPWP/NPPKP</b></td>
@@ -129,19 +132,21 @@ $content = '
                                 <td>Alamat</b></td>
                                 <td>:</td>
                                 <td>
-                                Jl. Digul No.1 RT.012 RW.007, Koja, Jakarta Utara, DKI Jakarta-14120
+                                GEDUNG SINAR MAS LAND PLAZA MENARA 2 LT.9 JL.M.H.THAMRIN
+                                : NO.51 RT.009 RW.004 GONDANGDIA MENTENG,JAKARTA PUSAT DKI JAKARTA 10350 
                                 </td>                            
                             </tr>
                             <tr>
                                 <td>Vessel/Voyage</b></td>
                                 <td>:</td>
                                 <td>
+                                OOCL GUANGZHOU / 123N
                                 </td>                            
                             </tr>
                             <tr>
                                 <td>CLTM/PDHTR</b></td>
                                 <td>:</td>
-                                <td></td>                            
+                                <td>2020-05-25 '.date('h:i:s').'</td>
                             </tr>
                             <tr>
                                 <td>Total shift</b></td>
@@ -151,7 +156,7 @@ $content = '
                             <tr>
                                 <td>Total CNT</b></td>
                                 <td>:</td>
-                                <td></td>                            
+                                <td>1</td>                            
                             </tr>
                         </table>                    
                     </td>
@@ -161,24 +166,26 @@ $content = '
                                 <td>Nomor DO/PEB</td>
                                 <td>:</td>
                                 <td>
+                                323465/KPU.01/2020
                                 </td>
                             </tr>
                             <tr>
                                 <td>Nomor BL</td>
                                 <td>:</td>
                                 <td>
+                                323465
                                 </td>
                             </tr>
                             <tr>
                                 <td>Bongkar/Muat</td>
                                 <td>:</td>
-                                <td></td>
+                                <td>MUAT</td>
                             </td>
                             </tr>
                             <tr>
                                 <td>Tanggal Tiba</td>
                                 <td>:</td>
-                                <td>'.date('Ymd h:i:s').'</td>
+                                <td>2020-06-30 '.date('h:i:s').'</td>
                             </tr>
                         </table>                    
                     </td>
@@ -229,8 +236,8 @@ $content = '
             </p>
             <p class="notes">            
                 * Pembayaran dapat di lakukan melalui VA (Virtual Account) Bank BNI <br/>
-                188 10/06/2020 08117044456 5111040 IMST TGL. SPPB: 31/12/2020 MASA PENUMPUKAN: 16/09/2019 S/D 17/06/2020 = 276 HARI
-            </p>
+                25/06/2020 08117044456 5101702 RNUN TGL. PE: 22/05/2020 MASA PENUMPUKAN: 25/05/2020 S/D 26/05/2020 = 2 HARI
+                </p>
             
         </div>
         
@@ -250,13 +257,6 @@ $content = '
                         <img style="margin: 10px; width:100" src="barcode.png"/>  <br/>
                     </td>
                     <td style="text-align: left">
-                    Jakarta, '.date('d-m-Y H:i:s').'<br/>
-                    <p style="text-align: centre">
-                        Terminal Peti Kemas Koja <br/>Supervisor Billing <br/>
-                    </p>
-                        <img style="width: 120px;" src="signature.jpg"/>  <br/>
-                        Baharudin Hermansah
-                        NIK. 123456
                     </td>
                 </tr>
             </table>

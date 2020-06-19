@@ -52,7 +52,7 @@ $content = '
             <table>
                 <tr>
                     <td style="vertical-align: top; width: 50%">
-                        <img style="width:120" src="logoZw5JVp4Z3oLqCEFTYrEk (1).png"/>  <br/>
+                        <img style="width:120" src="assets/clickargo.png"/>  <br/>
                         <table>
                             <tr>
                                 <td>ALAMAT</td>

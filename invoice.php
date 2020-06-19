@@ -52,7 +52,7 @@ $content = '
             <table>
                 <tr>
                     <td style="vertical-align: top; width: 50%">
-                        <img style="width:120" src="logoZw5JVp4Z3oLqCEFTYrEk (1).png"/>  <br/>
+                        <img style="width:120" src="assets/clickargo.png"/>  <br/>
                         <table>
                             <tr>
                                 <td>ALAMAT</td>
@@ -208,12 +208,6 @@ $content = '
                     <td style="text-align: right">Total</td>
                 </tr>
                 <tr>
-                    <td>Invoice Terminal - KOJA (101004140022)</td>
-                    <td>1</td>
-                    <td style="text-align: right">1.000.000</td>
-                    <td style="text-align: right">1.000.000</td>
-                </tr>
-                <tr>
                     <td>ADMINISTRATION</td>
                     <td>1</td>
                     <td style="text-align: right">5.000</td>
@@ -232,12 +226,12 @@ $content = '
                 </tr>
                 <tr>
                     <td colspan="3">Total</td>
-                    <td style="text-align: right">1.005.500</td>
+                    <td style="text-align: right">5.500</td>
                 </tr>
             </table>
 
             <p>            
-                Terbilang: satu juta lima ribu lima ratus rupiah
+                Terbilang: lima ribu lima ratus rupiah
             </p>
             <p class="notes">            
                 * Pembayaran dapat di lakukan melalui VA (Virtual Account) Bank BNI <br/>
